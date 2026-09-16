@@ -1,28 +1,24 @@
 {
-  "name": "next-practice-project",
-  "version": "0.1.0",
-  "private": true,
+  "name": "food-ordering-system",
+  "version": "1.0.0",
+  "description": "Terminal Food Ordering and Billing System in TypeScript",
+  "main": "src/index.ts",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "terminal": "tsx src/app/index.ts"
+    "start": "tsx src/index.ts",
+    "terminal": "tsx src/index.ts",
+    "demo": "tsx src/index.ts --demo",
+    "build": "tsc"
   },
-  "dependencies": {
-    "next": "16.3.4",
-    "react": "19.2.8",
-    "react-dom": "19.2.8"
-  },
+  "keywords": [
+    "typescript",
+    "terminal",
+    "food-ordering"
+  ],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.3.4",
-    "tailwindcss": "^4",
+    "@types/node": "^20.17.0",
     "tsx": "^4.23.13",
-    "typescript": "^5"
+    "typescript": "^5.6.0"
   }
 }
